@@ -21,7 +21,7 @@ export default function ContinentCities(){
                 <GridItem w='200px' h='10' bg='blue.500' />
                 <GridItem w='200px' h='10' bg='blue.500' />
             </Grid> */}
-            <Grid templateColumns='repeat(4, 1fr)' gap={6}
+            <Grid templateColumns={['repeat(1fr)', 'repeat(1fr)', 'repeat(4, 1fr)', 'repeat(4, 1fr)']} gap={6}
                 h={145}
                 w={[300, 300, 1160, 1160]}
             >
